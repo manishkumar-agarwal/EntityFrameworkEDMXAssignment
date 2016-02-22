@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f09ac47e18fa48658fd7e35995a034ce" Name="Diagram1">
+        <EntityTypeShape EntityType="DBWrapper.TelephoneSystemDBContextModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWrapper.TelephoneSystemDBContextModel.CustomerBillingHistory" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWrapper.TelephoneSystemDBContextModel.Customer" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWrapper.TelephoneSystemDBContextModel.Employee" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBWrapper.TelephoneSystemDBContextModel.FK_dbo_CustomerBillingHistories_dbo_Customers_CustomerMobileNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="DBWrapper.TelephoneSystemDBContextModel.FK_dbo_Customers_dbo_Employees_Employee_EmployeeId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
